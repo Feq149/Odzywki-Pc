@@ -1,5 +1,5 @@
 package BridgeStuff;
 
 public enum BidType {
-    Double,Redouble,Pass,Bid
+    Double,Redouble,Pass,Contract
 }

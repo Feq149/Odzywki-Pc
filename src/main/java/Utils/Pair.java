@@ -1,15 +1,16 @@
 package Utils;
 
-public class Pair<T> {
-    private T first,second;
-    public Pair(T t1, T t2) {
+public class Pair<T,U> {
+    private T first;
+    private U second;
+    public Pair(T t1, U t2) {
         first = t1;
         second = t2;
     }
     public T getFirst() {
         return first;
     }
-    public T getSecond() {
+    public U getSecond() {
         return second;
     }
 }
